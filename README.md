@@ -1,3 +1,7 @@
+Brainstorm word dokumentti: https://metropoliafi-my.sharepoint.com/:w:/g/personal/danielju_metropolia_fi/ES80EIzwUbhDnWB3lAZW7IUBHFiYODVtyZR91CdnmfpjqA?e=L5n0fb
+
+
+
 Määrittelyn pohjaksi asetetaan joukko reunaehtoja. Reunaehtojen tarkoitus on varmistaa, että saavutatte peliprojektin aikana ne oppimistavoitteet, joita opintojaksoille on määritetty.
 
 Voitte siis määritellä ja toteuttaa minkälaisen pelin tahansa, kunhan se toteuttaa alla kuvatut reunaehdot:
