@@ -17,7 +17,7 @@ connection = mysql.connector.connect(
     port=3306,
     database='peli',
     user='root',
-    password='salasana',
+    password='yuk7whc3ct3wr',
     autocommit=True
 )
 cursor = connection.cursor()
