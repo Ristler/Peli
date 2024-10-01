@@ -88,4 +88,23 @@ def startGame():
 
 login()
 
-
+#def prepare():
+#    lentokone = listaalentokoneet()
+#
+#    määränpää = haetaanmaaranpaa(lentokone.fuel())
+#
+#    indeksi = 0
+#    tyytyväisyys = pelaaja.tyytväisyys()
+#    paikka = 0
+#    randomi = random.random()
+#    while indeksi < lentokone.paikkacap():
+#        if tyytyväisyys >= randomi:
+#            paikka += 1
+#    lentokone.kunto -= 5
+#    rikki_randomi = random.random()
+#    if kunto < 80:
+#        if kunto*1.1/100 < rikkin_randomi:
+#            lentopaskaks()
+#
+#    tulo = lipunhinta * paikka
+#    pelaaja.raha += tulo
