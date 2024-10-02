@@ -17,7 +17,7 @@ connection = mysql.connector.connect(
     port=3306,
     database='peli',
     user='root',
-    password='Omena1ope',
+    password='1234',
     autocommit=True
 )
 cursor = connection.cursor()
@@ -25,7 +25,7 @@ cursor = connection.cursor()
 def login():
     print("Welcome to airport typhoon!")
     print("Are you a new player, or do you want to sign in?")
-    userInput = input("Sign in (1) New user(2): ")
+    userInput = int(input("Sign in (1) New user(2): "))
     if not userInput == 1 and not userInput == 2:
         print("Invalid command reboot the game!")
         return
@@ -101,7 +101,7 @@ def interface():
 login()
 
 
-def prepare():
+#def prepare():
 #   lentokone = listaalentokoneet()
 #   määränpää = haetaanmaaranpaa(lentokone.fuel())
 #
