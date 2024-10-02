@@ -1,4 +1,4 @@
-#ff
+
 
 import mysql.connector
 
@@ -17,7 +17,7 @@ connection = mysql.connector.connect(
     port=3306,
     database='peli',
     user='root',
-    password='salasana',
+    password='Omena1ope',
     autocommit=True
 )
 cursor = connection.cursor()
@@ -25,8 +25,10 @@ cursor = connection.cursor()
 def login():
     print("Welcome to airport typhoon!")
     print("Are you a new player, or do you want to sign in?")
-    userInput = int(input("Sign in (1) New user(2): "))
-
+    userInput = input("Sign in (1) New user(2): ")
+    if not userInput == 1 and not userInput == 2:
+        print("Invalid command reboot the game!")
+        return
     if userInput == 2:
         createPlayer()
 
@@ -84,6 +86,44 @@ def createPlayer():
 def startGame():
     print("Welcome", user["nimi"])
 
+def interface():
+    while(True):
+
+        inputti = str(input("Tervetuloa peliin"))
+        match inputti:
+            case "Aloita lento":
+                print("prepare funktio")
+            case "Listaa koneet":
+                print("Listaa koneet()")
+            case "korjaa":
+                print("Korjaa()")
+
 login()
 
 
+def prepare():
+#   lentokone = listaalentokoneet()
+#   määränpää = haetaanmaaranpaa(lentokone.fuel())
+#
+#   indeksi = 0
+#   tyytyväisyys = pelaaja.tyytväisyys()
+#   paikka = 0
+#   randomi = random.random()
+#   while indeksi < lentokone.paikkacap():
+#       if tyytyväisyys >= randomi:
+#            paikka += 1
+#    lentokone.kunto  -= 5
+#    rikki_randomi = random.random()
+#    if kunto < 80:
+#        if kunto*1.1/100 < rikkin_randomi:
+#            lentopaskaks()
+#
+#    tulo = lipunhinta * paikka
+#    pelaaja.raha += tulo
+##   lentomatka(lentokone)
+
+
+
+#lentomatka():
+# geophy
+# lentokone.fuel = lentokone.fuel - litraperkm/effiency
