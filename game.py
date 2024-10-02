@@ -101,7 +101,7 @@ def interface():
 login()
 
 
-def prepare():
+#def prepare():
 #   lentokone = listaalentokoneet()
 #   määränpää = haetaanmaaranpaa(lentokone.fuel())
 #
