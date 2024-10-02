@@ -86,9 +86,22 @@ def createPlayer():
 def startGame():
     print("Welcome", user["nimi"])
 
+def interface():
+    while(True):
+
+        inputti = str(input("Tervetuloa peliin"))
+        match inputti:
+            case "Aloita lento":
+                print("prepare funktio")
+            case "Listaa koneet":
+                print("Listaa koneet()")
+            case "korjaa":
+                print("Korjaa()")
+
 login()
 
-#def prepare():
+
+def prepare():
 #   lentokone = listaalentokoneet()
 #   määränpää = haetaanmaaranpaa(lentokone.fuel())
 #
