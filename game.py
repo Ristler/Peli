@@ -25,9 +25,10 @@ cursor = connection.cursor()
 def login():
     print("Welcome to airport typhoon!")
     print("Are you a new player, or do you want to sign in?")
-    userInput = input("Sign in (1) New user(2): ")
-    if not userInput == 1 and not userInput == 2:
-        print("Invalid command reboot the game!")
+    try:
+        userInput = int(input("Sign in (1) New user(2): "))
+    except ValueError:
+        print("Vitu idiootti valitse 1 tai 2")
         return
     if userInput == 2:
         createPlayer()
