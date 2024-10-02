@@ -113,4 +113,4 @@ login()
 
 #lentomatka():
 # geophy
-# lentokone.fuel = lentokone.fuel - liteaperkm/effiency
+# lentokone.fuel = lentokone.fuel - litraperkm/effiency
